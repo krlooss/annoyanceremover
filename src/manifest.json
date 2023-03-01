@@ -6,8 +6,12 @@
 
   "permissions": [
     "tabs",
-    "notifications"
+    "notifications",
+    "contextMenus"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": [
